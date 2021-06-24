@@ -47,7 +47,7 @@ object Game {
       }
     }
 
-    new Game(p1, p2, spaces, PlayerID.P1)
+    Game(p1, p2, spaces, PlayerID.P1)
   }
 
   private val Ties = Player(PlayerID.Tie)
