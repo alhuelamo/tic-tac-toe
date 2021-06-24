@@ -1,3 +1,5 @@
+package alhuelamo.tictactoe
+
 @main def simulate: Unit = {
   val finalStats = (0 until 1000000)
     .foldLeft(Stats.empty) { (accStats, _) =>

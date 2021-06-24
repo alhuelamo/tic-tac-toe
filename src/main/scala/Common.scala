@@ -1,1 +1,0 @@
-type Pos = (Int, Int)

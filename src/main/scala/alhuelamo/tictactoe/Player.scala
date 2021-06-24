@@ -1,3 +1,5 @@
+package alhuelamo.tictactoe
+
 case class Player(name: PlayerID, tokens: Seq[Pos]) {
   def isEmpty: Boolean = tokens.isEmpty
   def iterator: Iterator[Pos] = tokens.iterator

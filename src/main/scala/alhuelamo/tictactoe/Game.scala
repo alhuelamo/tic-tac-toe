@@ -1,3 +1,5 @@
+package alhuelamo.tictactoe
+
 import scala.annotation.tailrec
 import scala.collection.immutable.Queue
 import scala.util.Random
